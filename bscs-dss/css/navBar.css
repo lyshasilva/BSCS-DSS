@@ -1,0 +1,63 @@
+
+
+.nav-container {
+    height:100vh; /* Adjust as needed */
+    background-color: #576879;
+    border-radius: 3px;
+    position: fixed;
+    width: 5vw;
+
+}
+
+.nav.flex-column {
+    list-style: none; /* Remove the list-style (bullets) */
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 15px 20px;
+    width: 20%;
+    height: auto;
+    margin-top: 30px;
+}
+.nav-item {  
+    position: relative;
+    transition: transform .5s; /* Animation */
+    margin: 0 auto;
+    }
+    
+    .nav-item:hover {
+    transform: scale(1.3); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    }
+
+
+.icon-png{
+    height: 100px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    margin-left: -80px;
+
+}
+
+.tooltip-text {
+    visibility: hidden;
+    width: 50px;
+    background-color: rgb(255, 255, 255, 0.8);
+    color: #2874a6;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip text */
+    position: absolute;
+    z-index: 1;
+    bottom: 15%; /* Position above the icon */
+    left: -100%;
+    margin-left: -60px; /* Center the tooltip */
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.nav-item:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+}

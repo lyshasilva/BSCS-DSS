@@ -1,0 +1,72 @@
+body{
+  background-color: #E2E6EA;
+}
+.overall-holder-update {
+  display: flex;
+  flex-direction: row-reverse;
+ /* align-items: center; /* Center the content horizontally */
+  /*justify-content: center; /* Center the content vertically */
+  background-color: #E2E6EA;;
+
+}
+.settings {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-content: center;
+  justify-content: center;
+  width: 93vw;
+  height: 100vh;
+  margin-left: 0;
+  margin-right: auto;
+
+}
+
+
+.background-settings {
+  position: relative;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  z-index: 0;
+}
+
+.logo-background {
+  width:auto;
+  height: 30rem;
+  object-fit: cover;
+  opacity: 0.2;
+}
+.log-out-form-container{
+  position: absolute;
+  display: flex;
+  width: 70vw;
+  height: 100vh;
+  flex-direction: row-reverse;
+}
+
+.log-out-form-container2{
+  position: block;
+  display: flex;
+  flex-direction: column-reverse;
+  margin-bottom: 8%;
+}
+
+
+button.logout-button{
+  border-radius: 20px;
+  height: 200%;
+  width: 150%;
+  cursor: pointer;
+  background-color: #d7e4ee;
+  border-style: solid;
+  border-color:  #2874a6;
+  color:#416e8f;
+  font-style: bold;
+}
+
+button.logout-button:hover{
+  background-color: #2874a6;
+  color: #E2E6EA;
+}

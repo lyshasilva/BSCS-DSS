@@ -1,0 +1,124 @@
+body{
+    background-color: #E2E6EA;
+}
+.overall-holder {
+    display: flex;
+    flex-direction: row-reverse;
+   /* align-items: center; /* Center the content horizontally */
+    /*justify-content: center; /* Center the content vertically */
+    background-color: #E2E6EA;
+
+}
+
+.home{
+    display: flex;  
+    flex-direction: row;
+    height: 100vh;
+    margin-right: auto;
+    margin-left: 0;
+    width: 95vw;
+
+}
+
+.left-elements-holder{
+    display: absolute;
+    width: 40%;
+    align-content: center;
+}
+
+.bscs-logo {
+    margin-left: 4rem;
+    width: 100%;
+    height: auto;
+}
+
+
+.right-elements-holder{
+    display: absolute;
+    width: 60%; /*the other half of the home div*/
+    height: 100vh;
+    align-content: center;
+}
+
+.right-home-content{
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-content: center;
+}
+
+
+.header-container{
+    background-color: #576879;
+    height: 5em;
+    width: 60%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0;
+
+}
+
+.header-container h1{
+    font-size: 6vh;
+    text-align: center;
+    color: #E2E6EA;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-top: 0;
+}
+
+.greetings-container {
+    text-align: right; /* Center text *//*
+    margin-top: 1em; /* Adjust margin with relative unit */
+    margin-right:10rem;
+}
+
+.greetings-container h1 {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 10vh;
+    color: #4B7CA2;
+}
+
+/*.nav-item:hover {
+    color: white !important;
+    transform: translate(-40px, 0);
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+  }
+  */
+
+/*
+.header-container h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 1000; /* Regular weight *//*
+    font-size: 80px; /* Adjust the font size with relative unit *//*
+    color: #E2E6EA;
+}
+
+.header-container {
+    margin: 2em; /* Adjust margin with relative unit *//*
+    background-color: #576879;
+    border-radius: 1.5em; /* Adjust border radius with relative unit *//*
+    width: 700px; /* Adjust width with percentage *//*
+    height: 100px;
+    text-align: center;
+    letter-spacing: -1px;
+}
+
+
+.greetings-container {
+    text-align: right; /* Center text *//*
+    margin-top: 1em; /* Adjust margin with relative unit *//*
+}
+
+.greetings-container h1 {
+    font-family: 'Varela Round', sans-serif;
+    margin: 0;
+    font-size: 90px; /* Adjust the font size with relative unit *//*
+    color: #4B7CA2;
+}
+*/

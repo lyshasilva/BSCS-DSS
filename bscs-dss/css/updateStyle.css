@@ -1,0 +1,277 @@
+body{
+  background-color: #E2E6EA;
+}
+.overall-holder-update {
+  display: flex;
+  flex-direction: row-reverse;
+ /* align-items: center; /* Center the content horizontally */
+  /*justify-content: center; /* Center the content vertically */
+  background-color: #E2E6EA;;
+
+}
+.update {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-content: center;
+  justify-content: center;
+  width: 93vw;
+  height: 100vh;
+  margin-left: 0;
+  margin-right: auto;
+
+}
+
+
+.background {
+  position: relative;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  z-index: 0;
+}
+
+.logo-background {
+  width:auto;
+  height: 30rem;
+  object-fit: cover;
+  opacity: 0.2;
+}
+
+.update-button-holder{
+  display: flex;
+  position: absolute;
+  z-index: 1;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  width: 50vw;
+}
+
+.update-button{
+  height: 5rem;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border-radius: 20px;
+  background-color: #4B7CA2;
+  border-style: none;
+  font-size: 30px;
+  color: #E2E6EA;
+}
+
+.update-button:hover{
+  background-color: #E2E6EA;
+  color: #4B7CA2;
+  border-color: #4B7CA2;
+  cursor: pointer;
+  border: solid;
+}
+/*
+.update-button-holder{
+  display: flex;
+  position: absolute;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  z-index: 1;
+  height: 100vh;
+  width: 55vw;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: rebeccapurple;
+}
+
+.links_of_buttons-holder{
+  display: flex;
+  position: relative;
+  z-index: inherit;
+  width: 100%;
+  height: 5em;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.rectangular_buttons{
+  display: flex;
+  position: relative;
+  z-index: 2;
+  align-content: center;
+  justify-content: center;
+  background-color: #2874a6;
+  height: 5em;
+  width: 100%;
+  border-radius: 20px;
+  flex-wrap: wrap;
+}
+
+
+
+.button-texts{
+  display: flex;
+  position: absolute;
+  z-index: 3;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: xx-large;
+  color: #d7dbdd;
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+
+}
+
+*/
+
+/*
+.fines-button-holder{
+  display: flex;
+  position: relative;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 100%;
+  justify-content: center;
+  align-content: center;
+  z-index: 3;
+}
+
+.rectangular_buttons{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  background-color: #2874a6;
+  height: 5em;
+  width: 100%;
+  border-radius: 20px;
+  flex-wrap: wrap;
+}
+
+.button-text-holder{
+  display:flex;
+  position: absolute;
+  justify-content: center;
+  z-index: 4;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: red;
+}
+
+.button-texts{
+  font-size: xx-large;
+  color: #d7dbdd;
+  text-decoration: none;
+}*/
+
+/*
+.desktop .rectangle {
+  position: absolute;
+  width: 962px;
+  height: 96px;
+  top: 445px;
+  left: 0;
+  background-color: #2874a6;
+  border-radius: 30px;
+}
+
+.desktop .text-wrapper {
+  position: absolute;
+  width: 521px;
+  top: 450px;
+  left: 230px;
+  font-family: 'Merriweather', serif;
+  font-weight: 400;
+  color: #d7dbdd;
+  font-size: 70px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .rectangle-2 {
+  position: absolute;
+  width: 962px;
+  height: 96px;
+  top: 207px;
+  left: 0;
+  background-color: #2874a6;
+  border-radius: 30px;
+}
+
+.desktop .text-wrapper-2 {
+  position: absolute;
+  width: 521px;
+  top: 210px;
+  left: 235px;
+  font-family: 'Merriweather', serif;
+  font-weight: 400;
+  color: #d7dbdd;
+  font-size: 70px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .overlap-group {
+  position: absolute;
+  width: 274px;
+  height: 1024px;
+  top: 0;
+  left: 1166px;
+}
+
+.desktop .rectangle-3 {
+  position: absolute;
+  width: 101px;
+  height: 1024px;
+  top: 0;
+  left: 397px;
+  background-color: #17202a;
+}
+
+.desktop .icon-5 {
+  width: 231px;
+  height: 244px;
+  top: 750px;
+  left: 268px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.desktop .icon-4 {
+  width: 231px;
+  height: 244px;;
+  top: 580px;
+  left: 268px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.desktop .icon-3 {
+  width: 231px;
+  height: 244px;
+  top: 400px;
+  left: 268px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.desktop .icon-2 {
+  width: 230px;
+  height: 304px;
+  top: 160px;
+  left: 280px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.desktop .icon-1 {
+  width: 231px;
+  height: 244px;
+  top: 53px;
+  left: 268px;
+  position: absolute;
+  object-fit: cover;
+}
+*/

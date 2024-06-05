@@ -1,0 +1,245 @@
+body{
+  background-color: #E2E6EA;
+}
+.overall-search_recordsProc-holder {
+    display: flex;
+    flex-direction: row-reverse;
+   /* align-items: center; /* Center the content horizontally */
+    /*justify-content: center; /* Center the content vertically */
+    background-color: #E2E6EA;;
+}
+
+.search_recordsProc {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-content: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    margin-left: 0;
+    margin-right: auto;
+  }
+
+.search_recordsProc-background-holder{
+    position: absolute;
+    display: flex;
+    height: 100vh;
+    align-content: center;
+    justify-content: center;
+    z-index: 0;
+  }
+
+  .background-search_RecordsProcStyle{
+    display: flex;
+    position: fixed;
+    height: 100vh;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .logo-background {
+    width:auto;
+    height: 30rem;
+    object-fit: cover;
+    opacity: 0.2;
+  }
+
+  .foreground-search_recordsProc-holder{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .foreground-search_recordsProc{
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+  }
+  .back-button-search_records{
+    font-size: large;
+    cursor: pointer;
+    background-color: #d7e4ee;
+    border-style: solid;
+    border-color:  #4B7CA2;
+    color:#416e8f;
+    font-style: bold;
+    border-radius: 20px;
+    cursor: pointer;
+    position: relative;
+	width: 10%;
+    height: 50px;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 3%;
+    margin-left: 5%;
+    z-index: 3;
+  }
+  .back-button-search_records:hover {
+    background-color: #4B7CA2;
+    color: #E2E6EA;
+  }
+
+  h2 {
+    color: #090136;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: white;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+.table-bring-front
+{
+z-index: 1;
+ position: absolute; /* Ensure it's positioned relative to its normal position */
+margin-top: 50px;
+}
+
+/* Add more styles as needed *//*
+
+.table-bring-front
+{
+z-index: 1;
+ position: relative; /* Ensure it's positioned relative to its normal position *//*
+margin-top: 50px;
+}*/
+
+/*.desktop {
+    display: flex;
+    flex-direction: row-reverse;
+   /* align-items: center; /* Center the content horizontally */
+    /*justify-content: center; /* Center the content vertically *//*
+    background-color: #E2E6EA;
+  }
+  
+  .nav-container{
+    z-index: 10;
+  }
+
+  .display_MD {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-content: center;
+    justify-content: center;
+    width: 93vw;
+    height: 100vh;
+    margin-left: 0;
+    margin-right: auto;
+  }
+
+  .display_MD-background-holder{
+    position: absolute;
+    display: flex;
+    height: 100vh;
+    align-content: center;
+    justify-content: center;
+    z-index: 0;
+  }
+
+  .background-display_MD{
+    display: flex;
+    position: fixed;
+    height: 100vh;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .logo-background {
+    width:auto;
+    height: 30rem;
+    object-fit: cover;
+    filter: blur(3px);
+  }
+
+
+.desktop {
+    background-color: #d7dbdd;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .desktop .div {
+    background-color: #d7dbdd;
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+  }
+
+  .desktop .overlap {
+    position: absolute;
+    width: 962px;
+    height: 715px;
+    top: 116px;
+    left: 184px;
+     z-index: -1;
+  }
+
+  .desktop .logo {
+    position: absolute;
+    width: 811px;
+    height: 715px;
+    top: 0;
+    left: 113px;
+    object-fit: cover;
+    filter:blur(3px)
+  }*/
+  /* Your CSS code goes here *//*
+  body {
+      background-color: #f0f0f0;
+      font-family: Arial, sans-serif;
+  }
+
+  h2 {
+      color: #333;
+  }
+
+  table {
+      border-collapse: collapse;
+      width: 100%;
+      background-color: white;
+  }
+
+  th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+  }
+
+  th {
+      background-color: #f2f2f2;
+  }
+
+  tr:hover {
+      background-color: #f5f5f5;
+  }
+
+  /* Add more styles as needed *//*
+  
+  .table-bring-front
+  {
+  z-index: 1;
+   position: relative; /* Ensure it's positioned relative to its normal position *//*
+  margin-top: 50px;
+  }*/

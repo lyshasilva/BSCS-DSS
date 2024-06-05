@@ -1,0 +1,298 @@
+body{
+  background-color: #E2E6EA;
+}
+
+.desktop {
+    display: flex;
+    flex-direction: row-reverse;
+   /* align-items: center; /* Center the content horizontally */
+    /*justify-content: center; /* Center the content vertically */
+    background-color: #E2E6EA;
+  }
+  
+  .nav-container{
+    z-index: 10;
+  }
+
+  .display_MD {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-content: center;
+    justify-content: center;
+    width: 93vw;
+    height: 100vh;
+    margin-left: 0;
+    margin-right: auto;
+  }
+
+  .display_MD-background-holder{
+    position: absolute;
+    display: flex;
+    height: 100vh;
+    align-content: center;
+    justify-content: center;
+    z-index: 0;
+  }
+
+  .background-display_MD{
+    display: flex;
+    position: fixed;
+    height: 100vh;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .logo-background {
+    width:auto;
+    height: 30rem;
+    object-fit: cover;
+    opacity: 0.2;
+  }
+
+  .foreground-display_MD-holder{
+    position: relative;
+    height: 100vh;
+    width: 93vw;
+  }
+
+  .foreground-display_MD{
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    height: 100vh;
+    width: 93vw;
+    flex-direction: column;
+  }
+
+  .foreground-display_MD-top{
+    height: 40%;
+    width: 100%;
+  }
+  .foreground-display_MD-top-overlay{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between; /* This ensures space between the left and right elements */
+    align-items: center; 
+    z-index: 1;
+
+  }
+  .foreground-display_MD-top-left{
+    height: 100%;
+    width: 50%;
+    opacity: 1;
+    z-index: 1;
+  }
+
+  .go_back-button-display_MD{
+    font-size: large;
+    cursor: pointer;
+    background-color: #d7e4ee;
+    border-style: solid;
+    border-color:  #4B7CA2;
+    color:#416e8f;
+    font-style: bold;
+    border-radius: 20px;
+    cursor: pointer;
+    position: relative;
+	  width: 20%;
+    height: 50px;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 10%;
+    margin-left: 10%;
+    z-index: 3;
+  }
+
+  .go_back-button-display_MD:hover {
+    background-color: #4B7CA2;
+    color: #E2E6EA;
+  }
+
+  .foreground-display_MD-top-right{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    opacity: 1;
+    z-index: 1;
+  }
+
+  .header-display_MD{
+    width: 40%;
+    height: 25%;
+    margin-top: 3%;
+    margin-left: 40%;
+  }
+
+  .header-display_MD h2{
+    background-color: #576879;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    color: #d7dbdd;
+    font-size: 200%;
+    text-align: center;
+    padding-top: 5%;
+  }
+  .add_payment-button{
+    cursor: pointer;
+    padding: 0.5% 1%;
+    font-size: 120%;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    height: 20%;
+    width: 20%;
+    margin-top: 10%;
+    margin-left: 55%;
+    font-family: 'Oswald', sans-serif;
+  }
+
+  .add_payment-button:hover{
+    background-color: #1d6b9f;
+  }
+
+  .overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9998;
+  }
+  
+    
+   /* Styles for the dialog */
+   .custom-dialog {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #d7dbdd;
+    border-radius: 50px;
+    padding: 20px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+  }
+  
+  .dialog-header {
+    display: flex;
+    justify-content: space-between;
+    cursor: move;
+  }
+  
+
+  .foreground-display_MD-bottom{
+    display:flex;
+    height: 60%;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  
+  table {
+  border-collapse: collapse;
+  position:relative;
+  height: 250px;
+ }
+ 
+ table, td {
+  border: 1px solid #295476;
+  padding: 5px;
+  text-align: left;
+  background-color: hsl(210, 16%, 90%);
+  color: #295475;
+ }
+ 
+ th {
+  background-color: #295475;
+  color: #E2E6EA;
+  padding: 10px;
+  border: 1px solid #295476;
+ }
+
+ 
+.stud_ID_field, .month_field, .amount_field{
+	background-color: white;
+	height: 25px;
+	border-style: solid;
+	border-color: #1d6b9f;
+	border-radius: 10px;
+	
+}
+/* Styles for the buttons */
+ .update-btn {
+  padding: 8px 16px;
+  margin: 5px;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-size: 25px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  position: absolute;
+  top: 110px;
+  left: 750px;
+  height: 50px;
+  width: 300px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.update-btn:hover {
+  background-color: #1d6b9f;
+}
+
+.close-btn{
+  position: absolute;
+	background-color:#d7dbdd;
+	width: 5%;
+	border-color: #576879;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+.add-btn{
+	height: 35px;
+	width: 150px;
+	background-color: #d2dee6;
+	border-color: #1d6b9f;
+  margin-top: 1%;
+}
+
+.add-btn{
+	padding: 8px 16px;
+	margin: 5px;
+	cursor: pointer;
+	border-radius: 10px;
+	border-style: solid;
+}
+
+.add-btn:hover{
+	background-color: #1d6b9f;
+	color: #d7dbdd;
+}
+
+.close-btn:hover {
+	background-color: #576879;
+	color: #d7dbdd;
+}
+
+
+ h2 {
+	margin-top: 20px;
+  color: #06121a;
+  text-align: center;
+  font-size: 250%;
+}

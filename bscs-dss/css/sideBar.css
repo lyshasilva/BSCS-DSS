@@ -1,0 +1,46 @@
+
+    nav
+    {
+        display: flex;
+        flex-direction: column;
+        width: calc(10rem + 2rem);
+        min-height: 100vh;
+        /*background-color: #72869A;*/
+        background-color: #72869A;
+        top: 0;
+        left: 0;
+        overflow: hidden;
+        padding: 1rem;
+        transition: 0.2s ease-out;
+        z-index: 99;
+        position: static;
+    
+    }
+    
+    
+    nav a, RouterLink {
+        color: white;
+        padding-left: .5em;
+        text-decoration: none;
+        font-size: 1.2rem;
+        }
+    
+    nav i{
+        color: white;
+        font-size: 1.2rem;
+    
+    }
+        h2.title{
+          color: white;
+          font-size: 1.5rem;
+          padding-bottom: 5rem;;
+        }
+    
+        .menu {
+          padding-top: 0.7em;
+          padding-bottom: 0.7em;
+          margin-top: 0em;
+          margin-bottom: 0em;
+          font-size:small;
+        }
+    
